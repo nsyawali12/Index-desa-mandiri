@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>login_idm</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- css for index login css -->
+    <link rel="stylesheet" href="css/login.css">
+
+    <!-- css bootstraps -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font awesome from bootstraps -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- css from the original login -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css'>
+</head>
+
+<body>
+    <!-- Add your site or application content here -->
+    <div class="split-screen">
+        <div class="left-screen">
+            <form>
+                <div class="copy">
+                    <h2> Login </h2>
+
+                    <div class="sign-container">
+                        <!-- Link sama yang login -->
+                        <p> Still don't have an account?
+                            <a href="signup.html">
+                                <strong> Sign Up </strong>
+                            </a>
+                        </p>
+
+                    </div>
+
+                    <div class="input-container email">
+                        <!-- usemail = User Email -->
+                        <label for="uemail"> Email </label>
+                        <input id="uemail" name="uemail" type="email" placeholder="Masukkan Email">
+                    </div>
+
+                    <div class="input-container password">
+                        <!-- upass = user password -->
+                        <label for="upass"> Password </label>
+                        <input id="upass" name="upass" type="password" placeholder="Masukkan Password">
+                        <!-- Icon Eyes -->
+                        <i class="far fa-eye-slash"></i>
+                    </div>
+
+
+                    <button class="login-btn" type="submit">
+                        Login
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="right-screen">
+            <div class="copy">
+                <h1> Selamat Datang di SuPi </h1>
+                <p> Belum Punya Akun? Buat Dahulu </p>
+                <button class="btn-ghost" id="button-signup"> <a href="signup.html"> Sign Up </a> </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS For Login -->
+    <!-- <script src="js/login.js"></script> -->
+
+    <!-- Boilerplate Stuff -->
+    <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- JS From Bootstraps 4 -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
