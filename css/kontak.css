@@ -128,9 +128,10 @@ body #kontak-section {
     margin-bottom: 50px;
 }
 
-.kontak-content {
+
+/* .kontak-content {
     padding: 75px 0;
-}
+} */
 
 .kontak-info,
 .kontak-img {
@@ -144,6 +145,10 @@ body #kontak-section {
 
 .kontak-img {
     margin-top: 10px;
+}
+
+.main-title {
+    font-size: 41px;
 }
 
 

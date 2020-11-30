@@ -2,40 +2,288 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>beranda_idm</title>
+    <meta name="description" content="Beranda Dashboard - IDM">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="vendors/jqvmap/dist/jqvmap.min.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <!-- Disini masukkin vendors yang di folder references -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- End Vendors -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+    <!-- Dibalik dari yang Sefee -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <!-- Karena navbarnya mau dikanan -->
+    <!-- this section is for navbar from bootstraps -->
+    <section id="nav-bar">
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- kalau udah ada logo nanti si sumi nya ganti ajah jadi <img> logonya-->
+            <a class="navbar-brand" href="#">IDMJ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                        <!-- di CONTACT US ini tempat masukkin data form -->
+                    </li>
+
+                    <!-- <li class="nav-item">
+                      <a class="nav-link" href="#">ABOUT US</a>
+
+                  </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+
+    <!-- Kontak Section -->
+
+    <!-- Card  -->
+    <!-- <div class="col-lg-12">
+        <div class="card card-content">
+            <div class="card text">
+                <div class="card-body pb-0">
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h2> Hasil Rekomendasi IDMJ 2020</h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <button class="btn btn-secondary"> Lihat Hasil Rekomendasi </button>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/Gambar/Beranda/Group 6.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="card-section">
+        <div class="col-lg-12 pt-4">
+            <div class="card">
+                <div class="card-body">
+                    This is some text within a card body.
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h2> Hasil Rekomendasi IDMJ 2020</h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <button class="btn btn-secondary"> Lihat Hasil Rekomendasi </button>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/Gambar/Beranda/Group 6.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-section">
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-lg-4 pt-4">
+                    <div class="card">
+                        <div class="card-body card-content">
+                            <h3 style="text-align: center;"> Ranking Desa IDMJ 2020 </h3>
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <i class="fa p-3 font-2xl mr-3 float-left number-idm"><strong id="numbering-idm"> 1 </strong></i>
+                                    <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                    <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <i class="fa  p-3 font-2xl mr-3 float-left number-idm"><strong id="numbering-idm"> 2 </strong></i>
+                                    <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                    <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <i class="fa p-3 font-2xl mr-3 float-left number-idm"><strong id="numbering-idm"> 3 </strong></i>
+                                    <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                    <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="clearfix">
+                                    <i class="fa p-3 font-2xl mr-3 float-left number-idm"><strong id="numbering-idm"> 4 </strong></i>
+                                    <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                    <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                                </div>
+                            </div>
+                            <button class="btn btn-secondary"> Lihat Hasil Rekomendasi </button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-8 pt-4">
+                    <div class="card">
+                        <div class="card-body card-content text-center">
+                            <h4 class="mb-3"> Pie Chart </h4>
+                            <div id="piechart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- <div class="card-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <h3 style="text-align: center;"> Ranking Desa IDMJ 2020 </h3>
+                        <div class="card-body">
+                            <div class="clearfix">
+                                <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left text-light"></i>
+                                <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="clearfix">
+                                <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left text-light"></i>
+                                <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="clearfix">
+                                <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left text-light"></i>
+                                <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="clearfix">
+                                <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left text-light"></i>
+                                <div class="h4 text-secondary mb-0 mt-1"> Bojongsoang </div>
+                                <div class="text-muted text-uppercase font-weight-bold font-xs small">Mandiri (0,9368)</div>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-secondary"> Lihat Hasil Rekomendasi </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
+
+
+
+
+
+
+
+    <!-- Add your site or application content here -->
+
+    <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- script bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--  Chart js -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/piechart.js"></script>
+
+    <!-- <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="js/init-scripts/chart-js/chartjs-init.js"></script> -->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

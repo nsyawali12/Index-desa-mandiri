@@ -128,9 +128,10 @@ body #tentang-section {
     margin-bottom: 50px;
 }
 
-.tentang-content {
+
+/* .tentang-content {
     padding: 75px 0;
-}
+} */
 
 .tentang-info,
 .tentang-img {
@@ -144,6 +145,10 @@ body #tentang-section {
 
 .tentang-img {
     margin-top: 10px;
+}
+
+.main-title {
+    font-size: 41px;
 }
 
 
