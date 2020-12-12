@@ -142,7 +142,8 @@ padding-left: 20px;
 .navbar-nav .has-sub>a.collapsed::after {
     color: gray;
     font-size: 10px;
-    content: "\f078";
+    content: "\f107";
+    font-family: 'FontAwesome';
 }
 
 .navbar-nav .has-sub>a.collapsed::after {
@@ -162,8 +163,8 @@ li.lower-menu a {
     text-align: center;
     color: gray;
     display: block;
-    content: "\f077";
-    font-family: 'homizio';
+    content: "\f105";
+    font-family: 'FontAwesome';
     font-weight: 900;
     font-size: 13px;
     line-height: 30px;
