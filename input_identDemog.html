@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>input_identdemografi_idm</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Vendors -->
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="vendors/jqvmap/dist/jqvmap.min.css">
+    <!-- End Vendors -->
+
+    <!-- css for index landing page -->
+    <link rel="stylesheet" href="css/style_dashboard.css">
+    <link rel="stylesheet" href="font/font/flaticon.css">
+
+    <!-- css bootstraps -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- font awesome from bootstraps -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#fafafa">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="fixed-top align-top" id="sidebar-wrapper" role="navigation">
+            <div class="simplebar-content" style="padding: 0px;">
+                <a class="sidebar-brand" href="index.html">
+                    <span class="align-middle">IDMJ</span>
+                </a>
+
+                <ul class="navbar-nav align-self-stretch">
+
+                    <li class="sidebar-header">
+                        Pages
+                    </li>
+                    <li class="">
+                        <a class="nav-link text-left" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="flaticon-bar-chart-1"></i> Ranking IDM
+                        </a>
+                    </li>
+
+                    <!-- Dropdown Menu  -->
+
+                    <!-- <li class="has-sub">
+                        <a class="nav-link collapsed text-left" href="#collapseExample2" role="button" data-toggle="collapse">
+                            <i class="flaticon-user"></i> Profile
+                        </a>
+
+
+
+                        <div class="collapse menu mega-dropdown" id="collapseExample2">
+                            <div class="dropmenu" aria-labelledby="navbarDropdown">
+                                <div class="container-fluid ">
+                                    <div class="row">
+                                        <div class="col-lg-12 px-2">
+                                            <div class="submenu-box">
+                                                <ul class="list-unstyled m-0">
+                                                    <li><a href="">PHP Frameworks</a></li>
+                                                    <li><a href="">Laravel</a></li>
+                                                    <li><a href=""> Codeigniter</a></li>
+                                                    <li><a href="">Node.js</a></li>
+                                                    <li><a href="">AngularJS</a></li>
+                                                    <li><a href="">ReactJS</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li> -->
+
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Hasil Rekomendasi
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Dashboard Akun
+                        </a>
+                    </li>
+
+
+
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Kuisioner 2020
+                        </a>
+                    </li>
+
+                    <!-- <li class="sidebar-header">
+                        tools and component
+                    </li> -->
+
+                    <!-- <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> ui element
+                        </a>
+                    </li> -->
+
+                    <li class="has-sub" data-toggle="tooltip" data-placement="right" title="Components">
+                        <a class="nav-link nav-link-collapse collapsed active" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+
+                            <i class="fa fa-fw fa-book"></i>
+                            <span class="nav-link-text"> Data </span>
+                        </a>
+
+                        <ul class="sidenav-second-level collapse" id="collapseComponents">
+
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" role="button" href="">Identitas Petugas</a>
+                            </li>
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#">Identitas Desa</a>
+                            </li>
+
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#">Geografi & Topografi </a>
+                            </li>
+
+                            <li class="lower-menu">
+                                <a class="nav-link text-left active" href="#">Demografi Desa </a>
+                            </li>
+
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#">Aktivitas Desa </a>
+                            </li>
+
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#">Pendapatan Desa </a>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="has-sub" data-toggle="tooltip" data-placement="right" title="Example Pages">
+                        <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+
+                            <!-- Icon menu disimpen disini atau daerah <li> -->
+                            <i class="fa fa-fw fa-file"></i>
+                            <span class="nav-link-text"> Dimensi Sosial </span>
+                        </a>
+
+                        <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" role="#" href=""> Bidang Kesehatan</a>
+                            </li>
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#"> Bidang Pendidikan</a>
+                            </li>
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#"> Bidang Modal Sosial </a>
+                            </li>
+                            <li class="lower-menu">
+                                <a class="nav-link text-left" href="#"> Bidang Pemukiman </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Dimensi Ekonomi
+                        </a>
+                    </li>
+
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Dimensi Lingkungan
+                        </a>
+                    </li>
+
+                    <!-- <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> Data
+                        </a>
+                    </li> -->
+
+                    <!-- <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> table
+                        </a>
+                    </li> -->
+
+                    <!-- <li class="sidebar-header">
+                        tools and component
+                    </li> -->
+
+                    <!-- <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-bar-chart-1"></i> chart
+                        </a>
+                    </li>
+                    
+                    <li class="">
+                        <a class="nav-link text-left" role="button">
+                            <i class="flaticon-map"></i> map
+                        </a>
+                    </li> -->
+
+                </ul>
+
+
+            </div>
+
+
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+            <div id="content">
+
+                <div class="container-fluid p-0 px-lg-0 px-md-0">
+                    <!-- Topbar -->
+                    <nav class="navbar navbar-expand navbar-light my-navbar">
+
+                        <!-- Sidebar Toggle (Topbar) -->
+                        <div type="button" id="bar" class="nav-icon1 hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+
+                        <!-- Topbar Search -->
+
+
+                        <!-- Topbar Navbar -->
+                        <ul class="navbar-nav ml-auto">
+
+                            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                            <li class="nav-item dropdown  d-sm-none">
+
+                                <!-- Dropdown - Messages -->
+                                <div class="dropdown-menu dropdown-menu-right p-3">
+                                    <form class="form-inline mr-auto w-100 navbar-search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for...">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">
+                                                <i class="fas fa-search fa-sm"></i>
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Beranda</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tentang</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kontak</a>
+                                <!-- di CONTACT US ini tempat masukkin data form -->
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+                    <!-- End of Topbar -->
+
+                    <!-- Begin Dashboard Page Content -->
+                    <div class="container-fluid px-lg-4">
+                        <div class="row">
+
+                            <div class="col-md-12 mt-lg-4 mt-4">
+                                <!-- Page Heading -->
+
+                                <!-- Card For Content -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <!-- Content Goes Here -->
+                                        <h2 class="card-title mb-4"> Edit & Input Identitas Demografi </h2>
+                                        <hr>
+                                        <p> Content Goes Here Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                            the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- End Content Card Dashboard -->
+
+                    <!-- /.container-fluid -->
+
+                </div>
+
+
+
+
+
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row text-muted">
+                            <div class="col-6 text-left">
+                                <p class="mb-0">
+                                    <a href="index.html" class="text-muted"><strong> Design By IDM Team </strong></a> &copy
+                                </p>
+                            </div>
+                            <!-- <div class="col-6 text-right">
+                                <ul class="list-inline">
+                                    <li class="footer-item">
+                                        <a class="text-muted" href="#">Support</a>
+                                    </li>
+                                    <li class="footer-item">
+                                        <a class="text-muted" href="#">Help Center</a>
+                                    </li>
+                                    <li class="footer-item">
+                                        <a class="text-muted" href="#">Privacy</a>
+                                    </li>
+                                    <li class="footer-item">
+                                        <a class="text-muted" href="#">Terms</a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- #Wrapper -->
+
+
+    <!-- End Of Page Content goes here -->
+
+
+    <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/jquery/jquery.min.js"></script>
+
+    <!-- JS From Bootstraps 4 -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#bar').click(function() {
+            $(this).toggleClass('open');
+            $('#page-content-wrapper ,#sidebar-wrapper').toggleClass('toggled');
+
+        });
+    </script>
+
+    <!-- Script from Template  Sufee Dashboard -->
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+
+
+    <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <!-- <script src="assets/js/dashboard.js"></script> 
+    <script src="assets/js/widgets.js"></script>  -->
+    <script src="vendors/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+
+</html>
